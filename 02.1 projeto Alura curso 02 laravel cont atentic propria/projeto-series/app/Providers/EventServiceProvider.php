@@ -25,7 +25,7 @@ class EventServiceProvider extends ServiceProvider
         \App\Events\SerieApagada::class=> [
             \App\Listeners\ExcluirCapaSerie::class
         ]*/
-    ];
+    ];//registro dos eventos e listeners ao criar uma serie nova emails são enviados e logs são gerados
 
     /**
      * Register any events for your application.

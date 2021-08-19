@@ -1,10 +1,8 @@
 <?php
 namespace App\Http\Controllers;
-
 use App\Episodio;
 use App\Temporada;
 use Illuminate\Http\Request;
-
 class EpisodiosController extends Controller
 {
     public function index(Temporada $temporada, Request $request)

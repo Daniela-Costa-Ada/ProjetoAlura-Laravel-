@@ -30,6 +30,6 @@ class ExcluirCapaSerie
         $serie = $event->serie;
         if ($serie->capa) {
             Storage::delete($serie->capa);
-        }
+        }//desativada pois esta acontecendo a exclusao pelo job
     }
 }

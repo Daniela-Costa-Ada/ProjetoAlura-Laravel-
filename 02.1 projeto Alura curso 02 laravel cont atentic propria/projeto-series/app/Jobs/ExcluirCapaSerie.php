@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Storage as FacadesStorage;
 
 class ExcluirCapaSerie implements ShouldQueue
 {
+    /*job que deleta a capa da serie*/
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
     public $serie;
     /**

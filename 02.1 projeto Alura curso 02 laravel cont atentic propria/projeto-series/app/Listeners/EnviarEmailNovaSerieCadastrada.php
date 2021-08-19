@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Listeners;
-
 use App\Events\NovaSerie;
 use App\Models\User;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -19,7 +17,7 @@ class EnviarEmailNovaSerieCadastrada implements ShouldQueue
     {
         //
     }
-
+    //listeners de envio de email, foi emitido o evento, registrado no provider e ouvido aqui de forma assincrona ShouldQueue
     /**
      * Handle the event.
      *

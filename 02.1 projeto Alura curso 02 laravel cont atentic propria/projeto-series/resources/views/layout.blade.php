@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+    <style type="text/css">
+        .jumbotron {
+            background-image: url("https://conceitosopticos.com.br/wp-content/uploads/2016/12/template-fundo-site-conseitos-opticos-4.jpg");
+            background-size: cover; margin-top: 20px; color: #F5FFFA; opacity:.8;           
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">

@@ -1,10 +1,7 @@
 <?php
-
 namespace App\Services;
-
 use App\Serie;
 use Illuminate\Support\Facades\DB;
-
 class CriadorDeSerie
 {
     public function criarSerie(
@@ -20,10 +17,9 @@ class CriadorDeSerie
         ]);
         $this->criaTemporadas($qtdTemporadas, $epPorTemporada, $serie);
         DB::commit();
-
         return $serie;
-    }
-
+    }//Pega os dados atraves do input aiciona nos atributos da classe, chma os metodos pra adiconar
+    //a temporada e episodio, só depois que finalina a transação no banco
     /**
      * @param int $qtdTemporadas
      * @param int $epPorTemporada

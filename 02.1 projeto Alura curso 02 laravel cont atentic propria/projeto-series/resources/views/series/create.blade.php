@@ -3,7 +3,6 @@
     Adicionar Série
 @endsection
 @section('conteudo')
-
 @if ($errors->any())
 <div class="alert alert-danger">
     <ul>
@@ -13,7 +12,6 @@
     </ul>
 </div>
 @endif
-
 <form method="post" enctype="multipart/form-data">
     @csrf
     <div class="row">
